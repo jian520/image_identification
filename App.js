@@ -25,7 +25,8 @@ export default class App extends Component<Props> {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          Welcome to React Native!
+          We ddddd
+
         </Text>
         <Text style={styles.instructions}>
           To get started, edit App.js
@@ -56,3 +57,25 @@ const styles = StyleSheet.create({
     marginBottom: 5,
   },
 });
+
+
+
+//
+// NativeBase theme has been copied at /Users/zhangjian/Desktop/RN/image_identification/native-base-theme               │
+// │ Here's how to theme your app                                                                                         │
+// │                                                                                                                      │
+// │ import getTheme from './native-base-theme/components';                                                               │
+// │ export default class ThemeExample extends Component {                                                                │
+// │ render() {                                                                                                           │
+//     │   return (                                                                                                           │
+//     │     <StyleProvider  style={getTheme()}>                                                                              │
+//             │       <Container>                                                                                                    │
+//                 │         <Content>                                                                                                    │
+//                     │           ...                                                                                                        │
+//                     │         </Content>                                                                                                   │
+//                 │       </Container>                                                                                                   │
+//             │     </StyleProvider>                                                                                                 │
+//     │   );                                                                                                                 │
+//     │ }                                                                                                                    │
+// │                                                                                                                      │
+// │ Head over to the docs (http://docs.nativebase.io/Customize.html#Customize) for detailed information on customization
